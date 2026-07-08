@@ -14,6 +14,12 @@ This project is a terminal-based interactive calculator designed to master multi
 ### 🏦 ATM Simulator (`atm_simulator.c`)
 This project is a terminal-based banking application that simulates a real-world Automated Teller Machine by focusing on persistent state management and defensive programming. The program handles a dynamic user account balance that continuously updates across multiple deposit and withdrawal cycles without resetting during loop iterations. It features strict overdraft protection logic to block invalid transactions before they can cause an unsafe negative balance. Additionally, the code implements a robust `getchar()` stream-flushing mechanism to cleanly manage the input buffer between numeric `scanf()` and string `fgets()` inputs, ensuring a bug-free user loop.
 
+
+### 🎯 Proximity Number Guessing Game Engine
+A modular, console-based interactive number guessing game written in C. This project marks a hands-on development milestone focused on mastering robust programmatic logic, functional scope discipline, and structural control flow without relying on editor autocomplete tools.
+
+The application cleanly separates user interface, execution routines, and core logic. It features a standalone evaluation engine that processes user guesses against a dynamically seeded random number (1–100). Instead of standard static feedback, the program tracks structural states to calculate the exact mathematical distance of a guess, providing responsive proximity hints that actively guide the player toward a perfect win.
+
 ---
 
 ## 📈 Technical Concepts Covered So Far
