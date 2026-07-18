@@ -14,13 +14,15 @@ void instructions(){
 int guess_game(int num1, int sec_num) {
     if (num1==sec_num){
         return 1;
-    } else if (num1>sec_num){
+    }
+    else if (num1>sec_num){
         return 0;
-    } else if (num1<sec_num){
+    }
+    else {
         return -1;
     }
 }
-    
+
 
 
 int main(){
@@ -43,9 +45,9 @@ int main(){
             printf("guessing too low! try again.\n\n");
         }
     }
-    printf("congrats! you guessed it");
-        
-        
+    printf("congrats! you guessed it\n");
+
+
 
     return 0;
 }
